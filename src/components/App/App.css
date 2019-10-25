@@ -1,0 +1,106 @@
+.onTop {
+    position: fixed;
+    z-index: 100000000 !important;
+}
+.under{
+    position: relative !important;
+}
+
+.homeBig{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.homePage {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    height: 450px;
+    width: 450px;
+    border: solid;
+    text-align: center;
+    
+}
+
+.homeBigger {
+    text-align: center;
+}
+
+.homePage1 {
+    contain: strict;
+    float: right;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    height: 450px;
+    width: 450px;
+    border: solid;
+    text-align: center;
+    
+}
+
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800);
+body {
+    font-family: Dosis;
+    margin: 0px;
+}
+
+.alert {
+    background-color: #ff4545;
+    margin: 50px;
+}
+
+.Dialog{
+    background-image:url(https://raw.githubusercontent.com/ConOps/conops/master/BG.png);
+    background-size: 700px;
+}
+
+.main{
+    text-align: center;
+    padding-top: 0px;
+}
+
+/* .form {} */
+    /* background-position: center;
+    background-image: url(https://raw.githubusercontent.com/ConOps/conops/master/LogoBlackedOut.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: unset;
+} */
+
+
+
+.log-in, .log-out, .register {
+    font-family: Dosis;
+
+  background-color: #00acb0;
+  border-radius: 4px;
+  color: #f8f8f8;
+  min-height: 50px;
+  min-width: 100px;
+  outline:0;
+  cursor: pointer;
+}
+
+.log-in:hover, .log-out:hover, .register:hover {
+  background-color: #008183;
+  font-family: Dosis;
+}
+
+/* This line makes the "Register" and "Login" buttons look like links */
+.link-button {
+    background:none;
+    color:inherit;
+    border:none;
+    padding:0;
+    font: inherit;
+    outline:0;
+    border-bottom:1px solid #444; 
+    cursor: pointer;
+    font-family: Dosis;
+
+}
+
+.eventsForNonAdmins {
+    margin-top: 8%;
+}

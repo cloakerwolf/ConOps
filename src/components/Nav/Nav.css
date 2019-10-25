@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800);
+.nav-title {  
+  display: inline-block;
+  color: #f2f2f2;
+  padding: 10px;
+}
+
+.nav {
+  overflow: hidden;
+  background-image: url(https://raw.githubusercontent.com/ConOps/conops/master/BG.png);
+  font-family: Dosis;
+  background-size: 1700px 900px;
+  margin-bottom: 0px;
+}
+
+.nav-link {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 24px 10px;
+  text-decoration: none;
+  font-size: 15px;
+
+  /* these last two make the logout button in
+  the nav bar look like another link */
+ 
+  cursor: pointer;
+  outline:0;
+  font-family: Dosis;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: white
+}
+
+.nav-right {
+  float: right;
+  display: flex;
+  font-family: Dosis;
+  color: white;
+}
+
+
+
